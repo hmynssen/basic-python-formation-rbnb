@@ -1,39 +1,6 @@
 Este bloco tem como objetivo fornecer uma base sólida em Python, Git e nas principais bibliotecas para computação científica, preparando o terreno para tópicos mais avançados.
 
-### 1\. Preparando o Terreno: Instalação e Configuração
-
-  * **Instalação do Python:**
-      * **Windows:** Siga as instruções detalhadas no [Guia de Instalação do Python para Windows](https://www.google.com/search?q=link_para_um_guia_confi%C3%A1vel_windows). Certifique-se de marcar a opção de adicionar o Python ao PATH durante a instalação.
-      * **Linux:** O Python geralmente já vem instalado na maioria das distribuições Linux. Para verificar a versão, abra o terminal e digite `python3 --version` ou `python --version`. Caso precise instalar ou atualizar, use o gerenciador de pacotes da sua distribuição (por exemplo, `sudo apt update && sudo apt install python3 python3-pip` no Debian/Ubuntu, ou `sudo yum update && sudo yum install python3 python3-pip` no CentOS/Fedora).
-  * **PyPI (Python Package Index):** O PyPI é o repositório de onde baixaremos e instalaremos as bibliotecas Python. Ele vem instalado por padrão com o Python. Para verificar se o `pip` (o instalador de pacotes do PyPI) está funcionando, abra o terminal/prompt de comando e digite `pip --version`.
-  * **Git e GitHub:**
-      * **O que são?** Git é um sistema de controle de versões distribuído, essencial para rastrear alterações no seu código e colaborar em projetos. GitHub é uma plataforma online que hospeda repositórios Git na nuvem, facilitando a colaboração e o compartilhamento de código.
-      * **Instalação do Git:**
-          * **Windows:** Baixe e instale o [Git para Windows](https://www.google.com/search?q=link_para_o_site_oficial_do_git_windows). Durante a instalação, aceite as opções padrão para iniciantes.
-          * **Linux:** O Git geralmente já está instalado. Verifique com `git --version`. Se não estiver, instale usando o gerenciador de pacotes (por exemplo, `sudo apt update && sudo apt install git` no Debian/Ubuntu, ou `sudo yum update && sudo yum install git` no CentOS/Fedora).
-      * **GitHub Desktop (Opcional):** Para quem prefere uma interface gráfica, o [GitHub Desktop](https://www.google.com/search?q=link_para_o_site_oficial_github_desktop) facilita a interação com o Git e o GitHub sem usar a linha de comando.
-      * **Primeiros Passos com Git no Terminal:**
-          * Abra o terminal (Linux) ou prompt de comando (Windows).
-          * **Configurar informações básicas:**
-            ```bash
-            git config --global user.name "Seu Nome Completo"
-            git config --global user.email "seu_email@exemplo.com"
-            ```
-          * **Criar um novo repositório local:** Navegue até a pasta do seu projeto com o comando `cd <caminho_da_pasta>` e inicialize o Git com `git init`.
-          * **Adicionar arquivos para rastreamento:** `git add <nome_do_arquivo>` (para um arquivo específico) ou `git add .` (para todos os arquivos na pasta).
-          * **Commitar as alterações:** `git commit -m "Mensagem descrevendo as alterações"`.
-          * **Conectar a um repositório remoto no GitHub:** Depois de criar um repositório no GitHub, siga as instruções na página do repositório para adicionar o "remote" ao seu repositório local:
-            ```bash
-            git remote add origin <URL_do_repositorio_GitHub>
-            git branch -M main # ou master, dependendo da configuração do seu repositório remoto
-            git push -u origin main
-            ```
-      * **Usando o Terminal (Prompt de Comando no Windows):**
-          * **Navegação:** `cd` (mudar diretório), `cd ..` (voltar um nível), `ls` (listar arquivos e pastas no Linux), `dir` (listar arquivos e pastas no Windows).
-          * **Criação de pastas:** `mkdir <nome_da_pasta>`.
-          * **Execução de scripts Python:** `python <nome_do_script>.py`.
-
-### 2\. O Básico da Linguagem Python
+### 1\. O Básico da Linguagem Python
 
   * **Tipagem:** Python é uma linguagem de tipagem dinâmica e forte. Isso significa que você não precisa declarar o tipo de uma variável explicitamente, e o interpretador verifica os tipos em tempo de execução, impedindo operações inadequadas entre tipos diferentes.
   * **Variáveis:** Usadas para armazenar dados. Os nomes de variáveis devem ser descritivos e seguir algumas regras (começar com letra ou sublinhado, não conter espaços ou caracteres especiais, etc.).
@@ -101,7 +68,7 @@ Este bloco tem como objetivo fornecer uma base sólida em Python, Git e nas prin
     print(resultado)  # Saída: 8
     ```
 
-### 3\. Primeiros Passos com NumPy e Matplotlib
+### 2\. Primeiros Passos com NumPy e Matplotlib
 
   * **Instalação:** Use o `pip` para instalar as bibliotecas. Abra o terminal/prompt de comando e execute:
     ```bash
@@ -154,7 +121,7 @@ Este bloco tem como objetivo fornecer uma base sólida em Python, Git e nas prin
     plt.show()
     ```
 
-### 4\. Introdução a Pandas e SciPy
+### 3\. Introdução a Pandas e SciPy
 
   * **Instalação:**
     ```bash
