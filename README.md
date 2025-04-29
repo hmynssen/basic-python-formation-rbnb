@@ -12,7 +12,7 @@ Este repositório foi criado para te guiar nos primeiros passos da sua jornada c
     * [Python/Readme.md](Python/Readme.md)
     * **Descrição:** Mergulhe nos fundamentos da linguagem Python, desde os tipos de dados e estruturas de controle até a introdução das poderosas bibliotecas NumPy, Matplotlib, Pandas e SciPy. A base para todas as suas futuras explorações!
 
-3.  **Escolha seu Caminho!** :fork_and_knife:
+3.  **Escolha seu Caminho!** :passport_control:
 
     * **Opção 1: Biologia Computacional** :dna::
         * [Biologia/Readme.md](Biologia/Readme.md)
