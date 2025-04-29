@@ -13,7 +13,7 @@ Este bloco tem como objetivo fornecer uma base sólida em Python, Git e nas prin
       * **Como encontrar o Terminal/Prompt de Comando:**
           * **Linux :penguin::** Geralmente pode ser encontrado pesquisando por "Terminal" no menu de aplicativos. O ícone pode variar dependendo da distribuição (Ubuntu, Fedora, etc.).
             * **Wikihow:** [Guiacompleto para Ubuntu](https://pt.wikihow.com/Abrir-uma-Janela-do-Terminal-no-Ubuntu)
-            * **Imagem Ilustrativa (Linux):** ![Link para uma imagem de como abrir o terminal no Ubuntu](https://pt.wikihow.com/Abrir-uma-Janela-do-Terminal-no-Ubuntu#/Imagem:Open-a-Terminal-Window-in-Ubuntu-Step-2-Version-3.jpg)
+            * **Imagem Ilustrativa (Linux):** ![Link para uma imagem de como abrir o terminal no Ubuntu](https://www.wikihow.com/images/thumb/6/6b/Open-a-Terminal-Window-in-Ubuntu-Step-2-Version-3.jpg/v4-728px-Open-a-Terminal-Window-in-Ubuntu-Step-2-Version-3.jpg)
           * **Windows :computer::**
               * **Opção 1: Menu Iniciar:** Clique no botão "Iniciar", digite "cmd" ou "Prompt de Comando" e clique no aplicativo correspondente.
               * **Opção 2: Barra de Pesquisa:** Clique na barra de pesquisa na barra de tarefas (geralmente ao lado do botão Iniciar), digite "cmd" ou "Prompt de Comando" e clique no resultado.
