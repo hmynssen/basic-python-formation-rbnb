@@ -1,0 +1,6 @@
+ID,Genótipo,Expressão_Gênica,Condição
+A1,WT,2.5,Controle
+A2,MUT,8.1,Tratamento
+B1,WT,3.0,Controle
+B2,MUT,9.5,Tratamento
+C1,WT,2.8,Controle
