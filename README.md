@@ -1,4 +1,4 @@
-# Bem-vindos ao Guia de Formação Básica em Python RBNB para Ciêntitas! 👋
+# Bem-vindos ao Guia de Formação Básica em Python RBNB para Cientitas! 👋
 
 Este repositório foi criado para te guiar nos primeiros passos da sua jornada com Python, com foco em aplicações para as áreas de engenharia, física, matemática e biologia. Siga os passos abaixo para explorar o conteúdo de forma organizada:
 
